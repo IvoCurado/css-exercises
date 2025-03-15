@@ -1,0 +1,19 @@
+.danger-button{
+    background-color: rgb(244, 242, 95);
+}
+
+.dark-button{
+    background-color: rgb(1,1,1);
+    color: rgb(255,255,255);
+}
+
+.dark-button, .danger-button{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* ALternative to grouping
+.font-styled{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+} */
