@@ -20,7 +20,31 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  gap: 16px;
+  padding: 14px 16px;
 }
+
+.left-part{
+  flex-shrink: 0;
+}
+
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  .header {
+    font-size: 22px;
+    font-weight:bold;
+  }
+}
+
+.text{
+  margin: 12px 0;
+}
+
+
 
 .icon {
   color: royalblue;
